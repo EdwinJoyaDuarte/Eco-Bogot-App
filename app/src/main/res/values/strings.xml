@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Eco Bogota</string>
+
+    <string name="login_email">Correo electrónico</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_login_button">Iniciar sesión</string>
+    <string name="login_forgot_button">Olvidé mi contraseña</string>
+    <string name="login_signup_button">Regístrate</string>
+
+    <string name="registro_nombre">Nombre completo</string>
+    <string name="registro_email">Correo electrónico</string>
+    <string name="registro_password">Contraseña</string>
+    <string name="registro_conf_password">Confirma tu contraseña</string>
+    <string name="registro_button">Crear cuenta</string>
+    <string name="inicio">Inicio</string>
+    <string name="novedades">Novedades</string>
+    <string name="reutiliza">Reutiliza</string>
+    <string name="perfil">Perfil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>

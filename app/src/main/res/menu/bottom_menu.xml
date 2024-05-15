@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:title="@string/inicio"
+        android:id="@+id/nav_inicio"
+        android:icon="@drawable/icono_inicio" />
+    <item
+        android:title="@string/novedades"
+        android:id="@+id/nav_novedades"
+        android:icon="@drawable/icono_novedades" />
+    <item
+        android:title="@string/reutiliza"
+        android:id="@+id/nav_reutiliza"
+        android:icon="@drawable/icono_reutiliza" />
+
+    <item
+        android:title="@string/perfil"
+        android:id="@+id/nav_perfil"
+        android:icon="@drawable/icono_perfil" />
+
+</menu>
