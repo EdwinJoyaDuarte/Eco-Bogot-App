@@ -16,6 +16,7 @@
     <string name="novedades">Novedades</string>
     <string name="reutiliza">Reutiliza</string>
     <string name="perfil">Perfil</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="tituloturno1">Turno 1</string>
@@ -24,7 +25,27 @@
     <string name="localidadesturno2">Localidades: \nEngativá \nFontibón  \nLa Sabana\n</string>
     <string name="tituloturno3">Turno 3</string>
     <string name="localidadesturno3">Localidades: \nBarrios Unidos \nSuba  \nUsaquén\n</string>
-    <string name="bolsa_blanca">Bolsa blanca:\nReciclabes \n\n¡Limpio, seco, separado! \n\nPlástico\nBotellas, bolsas, tapas y otros envases o \nutensilios de plástico \n\nPapel y Cartón \nCajas, papel limpio, hojas de papel usadas,\npapel periodico \n\nVidrio \nBotellas y frascos \n\nMetales \nLatas de bebidas y conserva, tapas, \nelectrodomésticos otros \n\nEnvases \ncompuestos Cajas multicapa de jugos, leche \no alimentos, envases metalicos \n\nMaderas \nPalos, cajas y tablas \n\nTextiles \nRopa y Trapos</string>
+    <string name="tituloturno4">Turno 4</string>
+    <string name="localidadesturno4">Localidades: \nBosa \nCiudad Bolívar \nKennedy \nPuente Aranda \nTunjuelito\n</string>
+    <string name="tituloturno5">Turno 5</string>
+    <string name="localidadesturno5">Localidades: \nCiudad Bolívar \nRafael Uribe Uribe \nSan Cristóbal \nSanta Fe \nTunjuelito\n</string>
+    <string name="tituloturno6">Turno 6</string>
+    <string name="localidadesturno6">Localidades: \nSuba \nMunicipio de Soacha\n</string>
+    <string name="tituloturno7">Turno 7</string>
+    <string name="localidadesturno7">Localidades: \nFontibón \nKennedy \nFunza \nMadrid, \nMosquera\n</string>
+    <string name="tituloturno8">Turno 8</string>
+    <string name="localidadesturno8">Localidades: \nAntonio Nariño \nBosa \nChapinero \nKennedy \nLos Mártires \nRafel Uribe Uribe \nSan Cristóbal \nSanta Fe \nUsaquén \nLa Calera \nArboretto\n</string>
+    <string name="tituloturno9">Turno 9</string>
+    <string name="localidadesturno9">Localidades: \nUsaquén \nSuba \nChía \nCajicá \nCojardín \nSopó \nTocancipá \nGachancipá \nAcuapolis\n</string>
+
+    <string name="boton1">Vela Navideña</string>
+    <string name="boton2">Jarrones Decorativos</string>
+    <string name="boton3">Portalápices</string>
+    <string name="boton4">Caja Organizadora</string>
+    <string name="boton5">Soporte para Macetas</string>
+    <string name="boton6">Portaretrato</string>
+    <string name="boton7">Mantel Individual</string>
+    <string name="boton8">Alimentador para Mascotas</string>
 
 
 </resources>

@@ -8,7 +8,6 @@
     android:background="@drawable/fondo_novedades"
     tools:context=".NovedadesFragment">
 
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="352dp"
@@ -19,4 +18,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.862" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

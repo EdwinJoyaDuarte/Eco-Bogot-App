@@ -1,56 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/main"
     android:orientation="vertical"
     android:background="@drawable/fondo_avanzada"
     tools:context=".AvanzadaActivity">
 
+    <ImageView
+        android:id="@+id/avanzada_inicio"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/flecha_atras"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,16:9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034" />
+
     <androidx.cardview.widget.CardView
-        android:onClick="expand"
+        android:id="@+id/expandableCard"
         android:layout_width="360dp"
-        android:layout_height="152dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="285dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="405dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
         app:cardCornerRadius="20dp"
         app:cardElevation="10dp"
-        app:contentPadding="20dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.392">
 
         <LinearLayout
-            android:id="@+id/layout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:id="@+id/linearLayout"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-         <ImageView
-            android:id="@+id/btnBasica"
-            android:layout_width="wrap_content"
-            android:layout_height="83dp"
-            android:layout_marginBottom="695dp"
-            android:src="@drawable/bolsa_blanca" />
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/bolsa_blanca"
+                app:layout_constraintDimensionRatio="H,16:9"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.188"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/bolsa_blanca"
-            android:textColor="@color/negro_negro"
-            android:textSize="16sp"
-            android:textStyle="normal"
-            android:visibility="gone" />
+            <ImageView
+                android:id="@+id/contenido1"
+                android:layout_width="360dp"
+                android:layout_height="750dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/fondo_blanca"
+                android:visibility="gone"
+                app:layout_constraintDimensionRatio="H,16:9"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
 
-
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,12 +5,11 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@drawable/fondo_intermedia"
-    tools:context=".IntermediaActivity">
+    android:background="@drawable/fondo_portalapices"
+    tools:context=".PortalapicesActivity">
 
     <ImageView
-        android:id="@+id/intermedia_inicio"
+        android:id="@+id/portalapices_reutiliza"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:scaleType="centerCrop"

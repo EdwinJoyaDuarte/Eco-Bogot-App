@@ -13,31 +13,43 @@
         android:theme="@style/Theme.EcoBogota"
         tools:targetApi="31">
         <activity
-            android:name=".AvanzadaActivity"
+            android:name=".PortalapicesActivity"
             android:screenOrientation="portrait"
             android:exported="false" />
+        <activity
+            android:name=".JarronesActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".VelaActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".AvanzadaActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".IntermediaActivity"
-            android:screenOrientation="portrait"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".BasicaActivity"
-            android:screenOrientation="portrait"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".HomeActivity"
-            android:screenOrientation="portrait"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".CorreoActivity"
             android:exported="false"
-            android:screenOrientation="portrait"
-            android:launchMode="singleInstance" />
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".RegistroActivity"
             android:exported="false"
-            android:screenOrientation="portrait"
-            android:launchMode="singleInstance" />
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
