@@ -27,6 +27,26 @@ class ReutilizaFragment : Fragment(R.layout.fragment_reutiliza) {
             startActivity(Intent(requireContext(), PortalapicesActivity::class.java))
         }
 
+        binding.button4.setOnClickListener {
+            startActivity(Intent(requireContext(), CajaActivity::class.java))
+        }
+
+        binding.button5.setOnClickListener {
+            startActivity(Intent(requireContext(), MacetasActivity::class.java))
+        }
+
+        binding.button6.setOnClickListener {
+            startActivity(Intent(requireContext(), PortaretratoActivity::class.java))
+        }
+
+        binding.button7.setOnClickListener {
+            startActivity(Intent(requireContext(), MantelActivity::class.java))
+        }
+
+        binding.button8.setOnClickListener {
+            startActivity(Intent(requireContext(), MascotasActivity::class.java))
+        }
+
     }
 
     override fun onDestroyView() {

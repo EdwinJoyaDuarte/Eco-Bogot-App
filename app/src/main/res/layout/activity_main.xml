@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_main.xml -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -29,9 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="textEmailAddress" />
-
     </com.google.android.material.textfield.TextInputLayout>
-
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/log_text_password"
@@ -42,9 +40,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginHorizontal="16dp"
-        android:layout_marginStart="51dp"
+        android:layout_marginStart="54dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="56dp"
+        android:layout_marginEnd="54dp"
         android:layout_marginBottom="24dp"
         android:hint="@string/login_password"
         app:layout_constraintEnd_toEndOf="parent"
@@ -57,7 +55,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="textPassword" />
-
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
@@ -70,30 +67,26 @@
         android:layout_marginHorizontal="16dp"
         android:layout_marginStart="101dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="107dp"
+        android:layout_marginEnd="101dp"
         android:layout_marginBottom="74dp"
-        android:backgroundTint="@color/gris_claro"
+        android:backgroundTint="@color/verde_manzana"
         android:paddingVertical="16dp"
         android:text="@string/login_login_button"
         android:textAllCaps="false"
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/log_text_password"
         app:strokeColor="@color/negro_negro" />
-
 
     <TextView
         android:id="@+id/text_recuperar"
-        android:layout_width="198dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="136dp"
+        android:layout_marginStart="120dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="77dp"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="131dp"
         android:text="Olvidé mi contraseña"
         android:textColor="@color/negro_negro"
         android:textSize="16sp"
@@ -101,19 +94,18 @@
 
     <TextView
         android:id="@+id/text_registro"
-        android:layout_width="98dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="150dp"
+        android:layout_marginStart="156dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="163dp"
-        android:layout_marginBottom="82dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="68dp"
         android:text="Regístrate"
         android:textColor="@color/negro_negro"
         android:textSize="16sp"
         android:textStyle="bold" />
-
 
 </RelativeLayout>

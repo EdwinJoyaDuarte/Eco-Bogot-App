@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "239162627457",
+    "project_id": "ecobogota-cur2024",
+    "storage_bucket": "ecobogota-cur2024.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239162627457:android:dd9f3dab3047857884c480",
+        "android_client_info": {
+          "package_name": "com.proyecto.ecobogota"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGtk8UUmwYS9n_g8Qm1h7-zh_kXE9ieK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

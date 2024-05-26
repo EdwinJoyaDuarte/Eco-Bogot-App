@@ -13,6 +13,7 @@ class InicioFragment : Fragment(R.layout.fragment_inicio) {
         super.onViewCreated(view, savedInstanceState)
 
         setupClickListeners()
+
     }
 
     private fun setupClickListeners() {
@@ -21,11 +22,9 @@ class InicioFragment : Fragment(R.layout.fragment_inicio) {
             openBasicaActivity()
         }
 
-
         view?.findViewById<View>(R.id.btnIntermedia)?.setOnClickListener {
             openIntermediaActivity()
         }
-
 
         view?.findViewById<View>(R.id.btnAvanzada)?.setOnClickListener {
             openAvanzadaActivity()
