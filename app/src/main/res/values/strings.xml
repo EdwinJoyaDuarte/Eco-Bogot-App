@@ -12,6 +12,7 @@
     <string name="registro_password">Contraseña</string>
     <string name="registro_conf_password">Confirma tu contraseña</string>
     <string name="registro_button">Crear cuenta</string>
+
     <string name="inicio">Inicio</string>
     <string name="novedades">Novedades</string>
     <string name="reutiliza">Reutiliza</string>
@@ -46,6 +47,11 @@
     <string name="boton6">Portaretrato</string>
     <string name="boton7">Mantel Individual</string>
     <string name="boton8">Alimentador para Mascotas</string>
+
+
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="actualizar_perfil">Actualizar Perfil</string>
+    <string name="recuperar_contraseña">Enviar mail</string>
 
 
 </resources>

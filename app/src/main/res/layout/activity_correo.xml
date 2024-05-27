@@ -44,7 +44,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/rec_cuenta"
+        android:id="@+id/Recuperar_cuenta"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -57,7 +57,7 @@
         android:layout_marginBottom="141dp"
         android:backgroundTint="@color/verde_manzana"
         android:paddingVertical="16dp"
-        android:text="@string/login_login_button"
+        android:text="@string/recuperar_contraseña"
         android:textAllCaps="false"
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
